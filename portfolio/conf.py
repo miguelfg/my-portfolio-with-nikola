@@ -20,7 +20,7 @@ BLOG_AUTHOR = "Miguel Fiandor"  # (translatable)
 BLOG_TITLE = "Miguel Fiandor - Data Analyst & Engineer"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "https://example.com/"
+SITE_URL = "https://my-portfolio-app-hxdx6.ondigitalocean.app/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://example.com/"
@@ -141,15 +141,23 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/archive.html", "Archive"),
+        # ("/archive.html", "Archive"),
+        ("/", "Home"),
+        ("/pages/services", "Services"),
+        ("/pages/portfolio", "Portfolio"),
+        ("/pages/contact-me", "Contact"),
+        ("/pages/about-me", "About"),
         ("/categories/", "Tags"),
-        ("/rss.xml", "RSS feed"),
+        # ("/rss.xml", "RSS feed"),
     ),
 
     "es": (
-        ("/es/archive.html", "Archivo"),
-        ("/es/categories/", "Etiquetas"),
-        ("/es/rss.xml", "Canal RSS"),
+        ("/es/", "Home"),
+        ("/es/pages/services", "Servicios"),
+        ("/es/pages/portfolio", "Portfolio"),
+        ("/es/pages/contact-me", "Contactar"),
+        ("/es/pages/about-me", "Sobre Mí"),
+        ("/es/categories", "Categorías"),
     ),
 }
 
@@ -698,7 +706,7 @@ GITHUB_COMMIT_SOURCE = True
 # Where the output site should be located
 # If you don't use an absolute path, it will be considered as relative
 # to the location of conf.py
-# OUTPUT_FOLDER = 'output'
+OUTPUT_FOLDER = 'output'
 
 # where the "cache" of partial generated content should be located
 # default: 'cache'
