@@ -1,0 +1,7 @@
+[project]
+name = "Miguel Fiandor - Data Analyst & Engineer"
+version = "0.1.0"
+description = "Data Freelance Site"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
