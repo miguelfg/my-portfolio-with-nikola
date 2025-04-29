@@ -1,7 +1,9 @@
 [project]
-name = "Miguel Fiandor - Data Analyst & Engineer"
+name = "my-portfolio-site"
 version = "0.1.0"
-description = "Data Freelance Site"
+description = "Miguel Fiandor Data Analyst & Engineer Freelance Site"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "nikola[extras]>=8.3.1",
+]
