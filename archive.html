@@ -14,7 +14,41 @@
 <link rel="alternate" type="application/rss+xml" title="RSS (en)" hreflang="en" href="rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (es)" hreflang="es" href="es/rss.xml">
 <link rel="canonical" href="https://my-portfolio-app-hxdx6.ondigitalocean.app/archive.html">
-<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="alternate" hreflang="es" href="es/archive.html">
+<link rel="icon" href="images/favicon.png" sizes="16x16">
+<link rel="icon" href="images/favicon.png" sizes="128x128">
+<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><style>
+    /* Adjust header column layout from 3-6-3 to 2-8-2 */
+    .col-md-3:first-child {
+        width: 16.66% !important;
+        max-width: 16.66% !important;
+        flex: 0 0 16.66% !important;
+    }
+    
+    .col-md-6.col-xs-10.col-sm-10.bootblog4-brand {
+        width: 66.66% !important;
+        max-width: 66.66% !important;
+        flex: 0 0 66.66% !important;
+    }
+    
+    .col-md-3:last-child {
+        width: 16.66% !important;
+        max-width: 16.66% !important;
+        flex: 0 0 16.66% !important;
+    }
+    
+    /* Ensure title text doesn't wrap */
+    .blog-header-logo {
+        white-space: nowrap;
+    }
+    
+    /* Responsive adjustment for smaller screens */
+    @media (max-width: 991px) {
+        .col-md-6.col-xs-10.col-sm-10.bootblog4-brand {
+            width: 80% !important;
+        }
+    }
+</style>
+<link rel="alternate" hreflang="es" href="es/archive.html">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -49,9 +83,6 @@
 </header><nav class="navbar navbar-expand-md navbar-light bg-white static-top"><div class="collapse navbar-collapse bs-nav-collapsible" id="bs-navbar">
             <ul class="navbar-nav nav-fill d-flex w-100">
 <li class="nav-item">
-<a href="." class="nav-link">Home</a>
-                </li>
-<li class="nav-item">
 <a href="pages/services" class="nav-link">Services</a>
                 </li>
 <li class="nav-item">
@@ -62,9 +93,6 @@
                 </li>
 <li class="nav-item">
 <a href="pages/about-me" class="nav-link">About</a>
-                </li>
-<li class="nav-item">
-<a href="categories/" class="nav-link">Tags</a>
 
                 
             </li>
