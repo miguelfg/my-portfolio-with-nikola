@@ -142,22 +142,22 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         # ("/archive.html", "Archive"),
-        ("/", "Home"),
+        # ("/", "Home"),
         ("/pages/services", "Services"),
         ("/pages/portfolio", "Portfolio"),
         ("/pages/contact-me", "Contact"),
         ("/pages/about-me", "About"),
-        ("/categories/", "Tags"),
+        # ("/categories/", "Tags"),
         # ("/rss.xml", "RSS feed"),
     ),
 
     "es": (
-        ("/es/", "Home"),
+        # ("/es/", "Home"),
         ("/es/pages/services", "Servicios"),
         ("/es/pages/portfolio", "Portfolio"),
         ("/es/pages/contact-me", "Contactar"),
         ("/es/pages/about-me", "Sobre Mí"),
-        ("/es/categories", "Categorías"),
+        # ("/es/categories", "Categorías"),
     ),
 }
 
@@ -949,10 +949,11 @@ IMAGE_FOLDERS = {'images': 'images'}
 # FAVICONS contains (name, file, size) tuples.
 # Used to create favicon link like this:
 # <link rel="name" href="file" sizes="size"/>
-# FAVICONS = (
-#     ("icon", "/favicon.ico", "16x16"),
-#     ("icon", "/icon_128x128.png", "128x128"),
-# )
+FAVICONS = (
+    ("icon", "/images/favicon.png", "16x16"),
+    ("icon", "/images/favicon.png", "128x128"),
+    # ("icon", "/icon_128x128.png", "128x128"),
+)
 
 # Show teasers (instead of full posts) in indexes? Defaults to False.
 # INDEX_TEASERS = False
@@ -1281,6 +1282,43 @@ MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code', 'markdown.extensions.c
 # before </head>
 # (translatable)
 # EXTRA_HEAD_DATA = ""
+
+# Custom CSS for adjusting header layout and title width to prevent line breaks
+EXTRA_HEAD_DATA = """
+<style>
+    /* Adjust header column layout from 3-6-3 to 2-8-2 */
+    .col-md-3:first-child {
+        width: 16.66% !important;
+        max-width: 16.66% !important;
+        flex: 0 0 16.66% !important;
+    }
+    
+    .col-md-6.col-xs-10.col-sm-10.bootblog4-brand {
+        width: 66.66% !important;
+        max-width: 66.66% !important;
+        flex: 0 0 66.66% !important;
+    }
+    
+    .col-md-3:last-child {
+        width: 16.66% !important;
+        max-width: 16.66% !important;
+        flex: 0 0 16.66% !important;
+    }
+    
+    /* Ensure title text doesn't wrap */
+    .blog-header-logo {
+        white-space: nowrap;
+    }
+    
+    /* Responsive adjustment for smaller screens */
+    @media (max-width: 991px) {
+        .col-md-6.col-xs-10.col-sm-10.bootblog4-brand {
+            width: 80% !important;
+        }
+    }
+</style>
+"""
+
 # Google Analytics or whatever else you use. Added to the bottom of <body>
 # in the default template (base.tmpl).
 # (translatable)
@@ -1414,6 +1452,42 @@ USE_TAG_METADATA = False
 # and 'private' tags are found in a post. Useful for checking that
 # migration was successful.
 WARN_ABOUT_TAG_METADATA = False
+
+# Custom CSS for adjusting header layout and title width to prevent line breaks
+EXTRA_HEAD_DATA = """
+<style>
+    /* Adjust header column layout from 3-6-3 to 2-8-2 */
+    .col-md-3:first-child {
+        width: 16.66% !important;
+        max-width: 16.66% !important;
+        flex: 0 0 16.66% !important;
+    }
+    
+    .col-md-6.col-xs-10.col-sm-10.bootblog4-brand {
+        width: 66.66% !important;
+        max-width: 66.66% !important;
+        flex: 0 0 66.66% !important;
+    }
+    
+    .col-md-3:last-child {
+        width: 16.66% !important;
+        max-width: 16.66% !important;
+        flex: 0 0 16.66% !important;
+    }
+    
+    /* Ensure title text doesn't wrap */
+    .blog-header-logo {
+        white-space: nowrap;
+    }
+    
+    /* Responsive adjustment for smaller screens */
+    @media (max-width: 991px) {
+        .col-md-6.col-xs-10.col-sm-10.bootblog4-brand {
+            width: 80% !important;
+        }
+    }
+</style>
+"""
 
 # Templates will use those filters, along with the defaults.
 # Consult your engine's documentation on filters if you need help defining

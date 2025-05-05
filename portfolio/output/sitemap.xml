@@ -7,11 +7,11 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://my-portfolio-app-hxdx6.ondigitalocean.app/</loc>
-  <lastmod>2025-04-29T16:29:00Z</lastmod>
+  <lastmod>2025-04-29T16:48:00Z</lastmod>
  </url>
  <url>
   <loc>https://my-portfolio-app-hxdx6.ondigitalocean.app/archive.html</loc>
-  <lastmod>2025-04-29T16:11:00Z</lastmod>
+  <lastmod>2025-05-05T21:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://my-portfolio-app-hxdx6.ondigitalocean.app/categories/</loc>
@@ -19,18 +19,14 @@
  </url>
  <url>
   <loc>https://my-portfolio-app-hxdx6.ondigitalocean.app/es/</loc>
-  <lastmod>2025-04-29T15:01:00Z</lastmod>
+  <lastmod>2025-04-29T16:48:00Z</lastmod>
  </url>
  <url>
   <loc>https://my-portfolio-app-hxdx6.ondigitalocean.app/es/archive.html</loc>
-  <lastmod>2025-04-29T16:11:00Z</lastmod>
+  <lastmod>2025-05-05T21:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://my-portfolio-app-hxdx6.ondigitalocean.app/es/categories/</loc>
-  <lastmod>2025-04-29T15:01:00Z</lastmod>
- </url>
- <url>
-  <loc>https://my-portfolio-app-hxdx6.ondigitalocean.app/es/galleries/</loc>
   <lastmod>2025-04-29T15:01:00Z</lastmod>
  </url>
  <url>
@@ -50,16 +46,8 @@
  </url>
  <url>
   <loc>https://my-portfolio-app-hxdx6.ondigitalocean.app/es/pages/services/</loc>
-  <lastmod>2025-04-29T15:01:00Z</lastmod>
+  <lastmod>2025-05-05T19:47:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="https://my-portfolio-app-hxdx6.ondigitalocean.app/pages/services/" />
- </url>
- <url>
-  <loc>https://my-portfolio-app-hxdx6.ondigitalocean.app/galleries/</loc>
-  <lastmod>2025-04-29T15:01:00Z</lastmod>
- </url>
- <url>
-  <loc>https://my-portfolio-app-hxdx6.ondigitalocean.app/listings/</loc>
-  <lastmod>2025-04-29T15:01:00Z</lastmod>
  </url>
  <url>
   <loc>https://my-portfolio-app-hxdx6.ondigitalocean.app/pages/about-me/</loc>
@@ -75,6 +63,6 @@
  </url>
  <url>
   <loc>https://my-portfolio-app-hxdx6.ondigitalocean.app/pages/services/</loc>
-  <lastmod>2025-04-29T15:01:00Z</lastmod>
+  <lastmod>2025-05-05T19:47:00Z</lastmod>
  </url>
 </urlset>
