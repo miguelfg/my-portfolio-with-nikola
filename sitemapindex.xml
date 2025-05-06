@@ -6,23 +6,15 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
-  <loc>https://example.com/es/galleries/rss.xml</loc>
-  <lastmod>2025-04-29T12:38:00Z</lastmod>
+  <loc>https://my-portfolio-app-hxdx6.ondigitalocean.app/es/rss.xml</loc>
+  <lastmod>2025-05-06T16:40:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://example.com/es/rss.xml</loc>
-  <lastmod>2025-04-29T12:38:00Z</lastmod>
+  <loc>https://my-portfolio-app-hxdx6.ondigitalocean.app/rss.xml</loc>
+  <lastmod>2025-05-06T16:40:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://example.com/galleries/rss.xml</loc>
-  <lastmod>2025-04-29T12:38:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://example.com/rss.xml</loc>
-  <lastmod>2025-04-29T12:38:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://example.com/sitemap.xml</loc>
-  <lastmod>2025-04-29T12:38:00Z</lastmod>
+  <loc>https://my-portfolio-app-hxdx6.ondigitalocean.app/sitemap.xml</loc>
+  <lastmod>2025-05-06T16:40:00Z</lastmod>
  </sitemap>
 </sitemapindex>
