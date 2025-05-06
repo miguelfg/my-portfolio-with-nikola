@@ -1,6 +1,6 @@
-.. title: About me
-.. slug: about-me
-.. date: 2025-04-29 13:56:53 UTC+02:00
+.. title: Services
+.. slug: services
+.. date: 2025-04-29 13:57:39 UTC+02:00
 .. tags: 
 .. category: 
 .. link: 

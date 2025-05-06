@@ -1,4 +1,4 @@
-Sitemap: https://my-portfolio-app-hxdx6.ondigitalocean.app/sitemapindex.xml
+Sitemap: https://example.com/sitemapindex.xml
 
 User-Agent: *
-Host: my-portfolio-app-hxdx6.ondigitalocean.app
+Host: example.com

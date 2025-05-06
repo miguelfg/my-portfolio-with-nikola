@@ -2,17 +2,26 @@
 <html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="es">
 <head>
 <meta charset="utf-8">
-<meta name="description" content="Miguel Fiandor Data Analyst &amp; Engineer Freelance Site">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Miguel Fiandor - Data Analyst &amp; Engineer</title>
-<link href="../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+<title>galleries | Miguel Fiandor - Data Analyst &amp; Engineer</title>
+<link href="../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
 <meta name="theme-color" content="#5670d4">
 <meta name="generator" content="Nikola (getnikola.com)">
-<link rel="alternate" type="application/rss+xml" title="RSS (es)" hreflang="es" href="rss.xml">
-<link rel="alternate" type="application/rss+xml" title="RSS (en)" hreflang="en" href="../rss.xml">
-<link rel="canonical" href="https://example.com/es/">
-<!--[if lt IE 9]><script src="../assets/js/html5.js"></script><![endif]-->
+<link rel="alternate" type="application/rss+xml" title="RSS (es)" hreflang="es" href="../rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (en)" hreflang="en" href="../../rss.xml">
+<link rel="canonical" href="https://example.com/es/galleries/">
+<!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
+<style type="text/css">
+    #gallery_container {
+        position: relative;
+    }
+    .image-block {
+        position: absolute;
+    }
+</style>
+<link rel="alternate" hreflang="en" href="../../galleries/">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Ir al contenido principal</a>
@@ -29,14 +38,14 @@
             </div>
         </div>
           <div class="col-md-6 col-xs-10 col-sm-10 bootblog4-brand" style="width: auto;">
-            <a class="navbar-brand blog-header-logo text-dark" href=".">
+            <a class="navbar-brand blog-header-logo text-dark" href="../">
 
             <span id="blog-title">Miguel Fiandor - Data Analyst &amp; Engineer</span>
         </a>
           </div>
             <div class="col-md-3 justify-content-end align-items-center bs-nav-collapsible collapse flex-collapse bootblog4-right-nav">
             <nav class="navbar navbar-light bg-white"><ul class="navbar-nav bootblog4-right-nav">
-<li class="nav-item"><a href="../" rel="alternate" hreflang="en" class="nav-link">English</a></li>
+<li class="nav-item"><a href="../../" rel="alternate" hreflang="en" class="nav-link">English</a></li>
 
                     
                     
@@ -47,13 +56,13 @@
 </header><nav class="navbar navbar-expand-md navbar-light bg-white static-top"><div class="collapse navbar-collapse bs-nav-collapsible" id="bs-navbar">
             <ul class="navbar-nav nav-fill d-flex w-100">
 <li class="nav-item">
-<a href="archive.html" class="nav-link">Archivo</a>
+<a href="../archive.html" class="nav-link">Archivo</a>
                 </li>
 <li class="nav-item">
-<a href="categories/" class="nav-link">Etiquetas</a>
+<a href="../categories/" class="nav-link">Etiquetas</a>
                 </li>
 <li class="nav-item">
-<a href="rss.xml" class="nav-link">Canal RSS</a>
+<a href="../rss.xml" class="nav-link">Canal RSS</a>
 
                 
             </li>
@@ -70,20 +79,11 @@
         
         
     
-        
+<nav class="breadcrumbs"><ul class="breadcrumb">
+<li class="breadcrumb-item active">galleries</li>
+</ul></nav><h1>galleries</h1>
 
-    
-        
-    <div class="postindex">
-    </div>
-    
-
-    
-    
-
-
-    
-
+<div id="gallery_container"></div>
 
         <!--End of body content-->
 
@@ -96,7 +96,12 @@
 </div>
 
 
-        <script src="../assets/js/all-nocdn.js"></script><script>
+        <script src="../../assets/js/all-nocdn.js"></script><script src="../../assets/js/justified-layout.min.js"></script><script src="../../assets/js/gallery.min.js"></script><script>
+var jsonContent = [];
+var thumbnailSize = 180;
+renderGallery(jsonContent, thumbnailSize);
+window.addEventListener('resize', function(){renderGallery(jsonContent, thumbnailSize)});
+</script><script>
     baguetteBox.run('div#content', {
         ignoreClass: 'islink',
         captions: function(element){var i=element.getElementsByTagName('img')[0];return i===undefined?'':i.alt;}});
