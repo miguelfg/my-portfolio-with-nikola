@@ -1,32 +1,32 @@
 <!--
-.. title: [Personal project] Toyota Used Car Dashboard
+.. title: Toyota Used Car Dashboard [Personal project]
 .. slug: personal-project-toyota-used-car-dashboard
 .. date: 2025-05-30 14:26:06 UTC+02:00
-.. tags: dashboard,streamlit,python,GCP
+.. tags: dashboard,streamlit,seaborn,python,GCP
 .. category: 
 .. link: 
 .. description: 
 .. type: text
 -->
 
-### Unlocking the Toyota Used Car Market in Spain: with Python Streamlit Dashboard on Google Cloud
+# The Toyota Used Car Market in Spain: with Python Streamlit Dashboard on Google Cloud
 
 ## Introduction
 I built this dashboard to provide some hidden insights about the used car market in Spain. Toyota is probably the most sold brand of the country, and this dashboard allows users to explore Toyota’s used car listings through an interactive web application. The dashboard is built using Python and Streamlit, providing a user-friendly interface for data analysis.
-![Bar charts](../images/barcharts-1.png)
+![Bar charts](../../images/toyota/barcharts-1.png)
 
 ## Exploring the Dashboard
 The dashboard is divided into the following sections: geo, counts, price vs mileage, and price ranges. Each section provides python seaborn visualizations and filters to drill down into the data.
 
-![Mileage vs Price](../images/mileage-vs-price.png)
+![Mileage vs Price](../../images/toyota/mileage-vs-price.png)
 
 It currently contains close to 5000 used Toyota cars listed in Spain, with data sourced from the Toyota España website. Some of the car’s attributes are: model, year, mileage, transmission, fuel, eco badge, price, and dealer location.
 
-![Table](../images/tabla1.png)
+![Table](../../images/toyota/tabla1.png)
 
 It maps the dealers’ locations, allowing users to see where the cars are being sold and how many. The dashboard also provides various statistics and analytics, such as the number of cars registered per year, the most common car packages, and the distribution of prices by model and package.
 
-![Map of Dealers](../images/map2.png)
+![Map of Dealers](../../images/toyota/map2.png)
 
 ## Technology Stack
 

@@ -143,6 +143,7 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         # ("/archive.html", "Archive"),
         # ("/", "Home"),
+        ("/", "Blog"),
         ("/pages/services", "Services"),
         ("/pages/portfolio", "Portfolio"),
         ("/pages/contact-me", "Contact"),
@@ -708,7 +709,7 @@ GITHUB_COMMIT_SOURCE = True
 # Where the output site should be located
 # If you don't use an absolute path, it will be considered as relative
 # to the location of conf.py
-OUTPUT_FOLDER = 'output'
+OUTPUT_FOLDER = 'output/'
 
 # where the "cache" of partial generated content should be located
 # default: 'cache'
