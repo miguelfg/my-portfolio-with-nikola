@@ -13,15 +13,23 @@
 
 ## Introduction
 I built this dashboard to provide some hidden insights about the used car market in Spain. Toyota is probably the most sold brand of the country, and this dashboard allows users to explore Toyota’s used car listings through an interactive web application. The dashboard is built using Python and Streamlit, providing a user-friendly interface for data analysis.
+![Bar charts](../images/barcharts-1.png)
 
 ## Exploring the Dashboard
 The dashboard is divided into the following sections: geo, counts, price vs mileage, and price ranges. Each section provides python seaborn visualizations and filters to drill down into the data.
 
+![Mileage vs Price](../images/mileage-vs-price.png)
+
 It currently contains close to 5000 used Toyota cars listed in Spain, with data sourced from the Toyota España website. Some of the car’s attributes are: model, year, mileage, transmission, fuel, eco badge, price, and dealer location.
+
+![Table](../images/tabla1.png)
 
 It maps the dealers’ locations, allowing users to see where the cars are being sold and how many. The dashboard also provides various statistics and analytics, such as the number of cars registered per year, the most common car packages, and the distribution of prices by model and package.
 
+![Map of Dealers](../images/map2.png)
+
 ## Technology Stack
+
 The project is divided into two modules:
 The ETL (Extract, Transform, Load) module, which scrapes the Toyota España website to gather used car data, clean and transform it, to store it in a local SQLite database.
 The dashboard Streamlit app, which provides Python seaborn data visualizations and extensive filtering capabilities.
