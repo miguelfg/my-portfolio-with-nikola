@@ -6,15 +6,55 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
+  <loc>https://my-portfolio-app-hxdx6.ondigitalocean.app/categories/dashboard.xml</loc>
+  <lastmod>2025-06-03T16:37:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://my-portfolio-app-hxdx6.ondigitalocean.app/categories/gcp.xml</loc>
+  <lastmod>2025-06-03T16:37:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://my-portfolio-app-hxdx6.ondigitalocean.app/categories/python.xml</loc>
+  <lastmod>2025-06-03T16:37:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://my-portfolio-app-hxdx6.ondigitalocean.app/categories/seaborn.xml</loc>
+  <lastmod>2025-06-03T16:37:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://my-portfolio-app-hxdx6.ondigitalocean.app/categories/streamlit.xml</loc>
+  <lastmod>2025-06-03T16:37:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://my-portfolio-app-hxdx6.ondigitalocean.app/es/categories/dashboard.xml</loc>
+  <lastmod>2025-06-03T16:37:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://my-portfolio-app-hxdx6.ondigitalocean.app/es/categories/gcp.xml</loc>
+  <lastmod>2025-06-03T16:37:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://my-portfolio-app-hxdx6.ondigitalocean.app/es/categories/python.xml</loc>
+  <lastmod>2025-06-03T16:37:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://my-portfolio-app-hxdx6.ondigitalocean.app/es/categories/seaborn.xml</loc>
+  <lastmod>2025-06-03T16:37:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://my-portfolio-app-hxdx6.ondigitalocean.app/es/categories/streamlit.xml</loc>
+  <lastmod>2025-06-03T16:37:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>https://my-portfolio-app-hxdx6.ondigitalocean.app/es/rss.xml</loc>
-  <lastmod>2025-05-06T16:40:00Z</lastmod>
+  <lastmod>2025-06-03T16:54:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://my-portfolio-app-hxdx6.ondigitalocean.app/rss.xml</loc>
-  <lastmod>2025-05-06T16:40:00Z</lastmod>
+  <lastmod>2025-06-03T16:54:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://my-portfolio-app-hxdx6.ondigitalocean.app/sitemap.xml</loc>
-  <lastmod>2025-05-06T16:40:00Z</lastmod>
+  <lastmod>2025-06-03T16:58:00Z</lastmod>
  </sitemap>
 </sitemapindex>

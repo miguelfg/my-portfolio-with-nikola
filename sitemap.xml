@@ -7,62 +7,119 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://my-portfolio-app-hxdx6.ondigitalocean.app/</loc>
-  <lastmod>2025-05-06T16:40:00Z</lastmod>
+  <lastmod>2025-06-03T16:54:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://my-portfolio-app-hxdx6.ondigitalocean.app/2025/</loc>
+  <lastmod>2025-06-03T15:57:00Z</lastmod>
  </url>
  <url>
   <loc>https://my-portfolio-app-hxdx6.ondigitalocean.app/archive.html</loc>
-  <lastmod>2025-05-06T16:37:00Z</lastmod>
+  <lastmod>2025-06-03T16:54:00Z</lastmod>
  </url>
  <url>
   <loc>https://my-portfolio-app-hxdx6.ondigitalocean.app/categories/</loc>
-  <lastmod>2025-05-06T16:37:00Z</lastmod>
+  <lastmod>2025-06-03T16:54:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://my-portfolio-app-hxdx6.ondigitalocean.app/categories/dashboard/</loc>
+  <lastmod>2025-06-03T15:57:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://my-portfolio-app-hxdx6.ondigitalocean.app/categories/gcp/</loc>
+  <lastmod>2025-06-03T15:57:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://my-portfolio-app-hxdx6.ondigitalocean.app/categories/python/</loc>
+  <lastmod>2025-06-03T15:57:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://my-portfolio-app-hxdx6.ondigitalocean.app/categories/seaborn/</loc>
+  <lastmod>2025-06-03T16:31:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://my-portfolio-app-hxdx6.ondigitalocean.app/categories/streamlit/</loc>
+  <lastmod>2025-06-03T15:57:00Z</lastmod>
  </url>
  <url>
   <loc>https://my-portfolio-app-hxdx6.ondigitalocean.app/es/</loc>
-  <lastmod>2025-05-06T16:40:00Z</lastmod>
+  <lastmod>2025-06-03T16:54:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://my-portfolio-app-hxdx6.ondigitalocean.app/es/2025/</loc>
+  <lastmod>2025-06-03T15:57:00Z</lastmod>
  </url>
  <url>
   <loc>https://my-portfolio-app-hxdx6.ondigitalocean.app/es/archive.html</loc>
-  <lastmod>2025-05-06T16:37:00Z</lastmod>
+  <lastmod>2025-06-03T16:54:00Z</lastmod>
  </url>
  <url>
   <loc>https://my-portfolio-app-hxdx6.ondigitalocean.app/es/categories/</loc>
-  <lastmod>2025-05-06T16:37:00Z</lastmod>
+  <lastmod>2025-06-03T16:54:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://my-portfolio-app-hxdx6.ondigitalocean.app/es/categories/dashboard/</loc>
+  <lastmod>2025-06-03T15:57:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://my-portfolio-app-hxdx6.ondigitalocean.app/es/categories/gcp/</loc>
+  <lastmod>2025-06-03T15:57:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://my-portfolio-app-hxdx6.ondigitalocean.app/es/categories/python/</loc>
+  <lastmod>2025-06-03T15:57:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://my-portfolio-app-hxdx6.ondigitalocean.app/es/categories/seaborn/</loc>
+  <lastmod>2025-06-03T16:31:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://my-portfolio-app-hxdx6.ondigitalocean.app/es/categories/streamlit/</loc>
+  <lastmod>2025-06-03T15:57:00Z</lastmod>
  </url>
  <url>
   <loc>https://my-portfolio-app-hxdx6.ondigitalocean.app/es/pages/about-me/</loc>
-  <lastmod>2025-05-06T16:40:00Z</lastmod>
+  <lastmod>2025-06-03T16:54:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="https://my-portfolio-app-hxdx6.ondigitalocean.app/pages/about-me/" />
  </url>
  <url>
   <loc>https://my-portfolio-app-hxdx6.ondigitalocean.app/es/pages/contact-me/</loc>
-  <lastmod>2025-05-06T16:40:00Z</lastmod>
+  <lastmod>2025-06-03T16:54:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="https://my-portfolio-app-hxdx6.ondigitalocean.app/pages/contact-me/" />
  </url>
  <url>
   <loc>https://my-portfolio-app-hxdx6.ondigitalocean.app/es/pages/portfolio/</loc>
-  <lastmod>2025-05-06T16:40:00Z</lastmod>
+  <lastmod>2025-06-03T16:54:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="https://my-portfolio-app-hxdx6.ondigitalocean.app/pages/portfolio/" />
  </url>
  <url>
   <loc>https://my-portfolio-app-hxdx6.ondigitalocean.app/es/pages/services/</loc>
-  <lastmod>2025-05-06T16:40:00Z</lastmod>
+  <lastmod>2025-06-03T16:54:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="https://my-portfolio-app-hxdx6.ondigitalocean.app/pages/services/" />
  </url>
  <url>
+  <loc>https://my-portfolio-app-hxdx6.ondigitalocean.app/es/posts/personal-project-toyota-used-car-dashboard/</loc>
+  <lastmod>2025-06-03T15:57:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://my-portfolio-app-hxdx6.ondigitalocean.app/posts/personal-project-toyota-used-car-dashboard/" />
+ </url>
+ <url>
   <loc>https://my-portfolio-app-hxdx6.ondigitalocean.app/pages/about-me/</loc>
-  <lastmod>2025-05-06T16:40:00Z</lastmod>
+  <lastmod>2025-06-03T16:54:00Z</lastmod>
  </url>
  <url>
   <loc>https://my-portfolio-app-hxdx6.ondigitalocean.app/pages/contact-me/</loc>
-  <lastmod>2025-05-06T16:40:00Z</lastmod>
+  <lastmod>2025-06-03T16:54:00Z</lastmod>
  </url>
  <url>
   <loc>https://my-portfolio-app-hxdx6.ondigitalocean.app/pages/portfolio/</loc>
-  <lastmod>2025-05-06T16:40:00Z</lastmod>
+  <lastmod>2025-06-03T16:54:00Z</lastmod>
  </url>
  <url>
   <loc>https://my-portfolio-app-hxdx6.ondigitalocean.app/pages/services/</loc>
-  <lastmod>2025-05-06T16:40:00Z</lastmod>
+  <lastmod>2025-06-03T16:54:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://my-portfolio-app-hxdx6.ondigitalocean.app/posts/personal-project-toyota-used-car-dashboard/</loc>
+  <lastmod>2025-06-03T15:57:00Z</lastmod>
  </url>
 </urlset>

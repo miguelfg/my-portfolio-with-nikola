@@ -1,2 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Miguel Fiandor - Data Analyst &amp; Engineer</title><link>https://my-portfolio-app-hxdx6.ondigitalocean.app/</link><description>Miguel Fiandor Data Analyst &amp; Engineer Freelance Site</description><atom:link href="https://my-portfolio-app-hxdx6.ondigitalocean.app/es/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>es</language><copyright>Contents © 2025 &lt;a href="mailto:miguel.fiandor.gutierrez@gmail.com"&gt;Miguel Fiandor&lt;/a&gt; </copyright><lastBuildDate>Tue, 06 May 2025 16:37:17 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs></channel></rss>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Miguel Fiandor - Data Analyst &amp; Engineer</title><link>https://my-portfolio-app-hxdx6.ondigitalocean.app/</link><description>Miguel Fiandor Data Analyst &amp; Engineer Freelance Site</description><atom:link href="https://my-portfolio-app-hxdx6.ondigitalocean.app/es/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>es</language><copyright>Contents © 2025 &lt;a href="mailto:miguel.fiandor.gutierrez@gmail.com"&gt;Miguel Fiandor&lt;/a&gt; </copyright><lastBuildDate>Tue, 03 Jun 2025 16:37:59 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Toyota Used Car Dashboard [Personal project]</title><link>https://my-portfolio-app-hxdx6.ondigitalocean.app/es/posts/personal-project-toyota-used-car-dashboard/</link><dc:creator>Miguel Fiandor</dc:creator><description>&lt;h2&gt;The Toyota Used Car Market in Spain: with Python Streamlit Dashboard on Google Cloud&lt;/h2&gt;
+&lt;h3&gt;Introduction&lt;/h3&gt;
+&lt;p&gt;I built this dashboard to provide some hidden insights about the used car market in Spain. Toyota is probably the most sold brand of the country, and this dashboard allows users to explore Toyota’s used car listings through an interactive web application. The dashboard is built using Python and Streamlit, providing a user-friendly interface for data analysis.
+&lt;img alt="Bar charts" src="https://my-portfolio-app-hxdx6.ondigitalocean.app/es/images/toyota/barcharts-1.png"&gt;&lt;/p&gt;
+&lt;h3&gt;Exploring the Dashboard&lt;/h3&gt;
+&lt;p&gt;The dashboard is divided into the following sections: geo, counts, price vs mileage, and price ranges. Each section provides python seaborn visualizations and filters to drill down into the data.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Mileage vs Price" src="https://my-portfolio-app-hxdx6.ondigitalocean.app/es/images/toyota/mileage-vs-price.png"&gt;&lt;/p&gt;
+&lt;p&gt;It currently contains close to 5000 used Toyota cars listed in Spain, with data sourced from the Toyota España website. Some of the car’s attributes are: model, year, mileage, transmission, fuel, eco badge, price, and dealer location.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Table" src="https://my-portfolio-app-hxdx6.ondigitalocean.app/es/images/toyota/tabla1.png"&gt;&lt;/p&gt;
+&lt;p&gt;It maps the dealers’ locations, allowing users to see where the cars are being sold and how many. The dashboard also provides various statistics and analytics, such as the number of cars registered per year, the most common car packages, and the distribution of prices by model and package.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Map of Dealers" src="https://my-portfolio-app-hxdx6.ondigitalocean.app/es/images/toyota/map2.png"&gt;&lt;/p&gt;
+&lt;h3&gt;Technology Stack&lt;/h3&gt;
+&lt;p&gt;The project is divided into two modules:
+The ETL (Extract, Transform, Load) module, which scrapes the Toyota España website to gather used car data, clean and transform it, to store it in a local SQLite database.
+The dashboard Streamlit app, which provides Python seaborn data visualizations and extensive filtering capabilities.&lt;/p&gt;
+&lt;h4&gt;The ETL Module&lt;/h4&gt;
+&lt;p&gt;Here I used the Python requests library to scrape the Toyota España website, extracting data on used cars. After it is converted into a Pandas DataFrame, it is cleaned and transformed to ensure data quality. The cleaned data is then stored in a local SQLite database for easy access by the dashboard.&lt;/p&gt;
+&lt;h4&gt;The Dashboard Module&lt;/h4&gt;
+&lt;p&gt;The dashboard is built using Streamlit, a powerful framework for creating interactive web applications in Python. It provides a user-friendly interface for exploring the used car data, with various filters and visualizations to help users gain insights into the market.
+It has enabled a simple Authentication using the streamlit_authenticator extension.&lt;/p&gt;
+&lt;p&gt;User/pass: demo/cars&lt;/p&gt;
+&lt;p&gt;It is deployed on Google Cloud Run with a repository type. This eases the deployment process by automatically building the container image from the source code in the repository with any updates on the main branch.
+The ETL is scheduled to run on Tuesdays and Fridays with Github Actions, thanks to the workflow file that runs the full ETL process and updates the local SQLite database with the latest data, and finally pushes the new db to Github.&lt;/p&gt;
+&lt;h3&gt;Conclusion: Empowering Your Used Toyota Search&lt;/h3&gt;
+&lt;p&gt;This dashboard empowers users with data-driven insights understanding the market trends in Spain. It provides a comprehensive view of the used car listings, allowing future car buyers to make a better deal based on various factors such as price, mileage, car status, and dealer location.&lt;/p&gt;
+&lt;h4&gt;You can find me on:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;LinkedIn&lt;/li&gt;
+&lt;li&gt;GitHub&lt;/li&gt;
+&lt;li&gt;X / Twitter&lt;/li&gt;
+&lt;/ul&gt;</description><guid>https://my-portfolio-app-hxdx6.ondigitalocean.app/es/posts/personal-project-toyota-used-car-dashboard/</guid><pubDate>Fri, 30 May 2025 12:26:06 GMT</pubDate></item></channel></rss>
