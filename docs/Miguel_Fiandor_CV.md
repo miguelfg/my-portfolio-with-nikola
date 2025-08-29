@@ -13,7 +13,7 @@ Borned in 1983
 Phone: +34 666 91 62 99
 
 
-[Email](miguel.fiandor.gutierrez@gmail.com) | [Website](https://miguelfg.github.io/my-portfolio-with-nikola/) | [Github](https://github.com/miguelfg) | [Linkedin](https://www.linkedin.com/in/mfiandor/) | [DataCamp](https://www.datacamp.com/portfolio/miguelfiandorgutierrez) | [Twitter](https://x.com/mfiandor)
+[Email](miguel.fiandor.gutierrez@gmail.com) | [Website](https://miguelfg.github.io/my-portfolio/) | [Github](https://github.com/miguelfg) | [Linkedin](https://www.linkedin.com/in/mfiandor/) | [DataCamp](https://www.datacamp.com/portfolio/miguelfiandorgutierrez) | [Twitter](https://x.com/mfiandor)
 
 
 # Employment experience
