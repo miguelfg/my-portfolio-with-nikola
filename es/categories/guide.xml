@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Miguel Fiandor - Data Analyst &amp; Engineer (Publicaciones sobre guide)</title><link>https://my-portfolio-app-hxdx6.ondigitalocean.app/</link><description></description><atom:link href="https://my-portfolio-app-hxdx6.ondigitalocean.app/es/categories/guide.xml" rel="self" type="application/rss+xml"></atom:link><language>es</language><copyright>Contents © 2025 &lt;a href="mailto:miguel.fiandor.gutierrez@gmail.com"&gt;Miguel Fiandor&lt;/a&gt; </copyright><lastBuildDate>Fri, 29 Aug 2025 18:53:17 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Ollama day-1 guide</title><link>https://my-portfolio-app-hxdx6.ondigitalocean.app/es/posts/ollama-day-1-guide/</link><dc:creator>Miguel Fiandor</dc:creator><description>&lt;p&gt;After installing &lt;a href="https://ollama.com/"&gt;&lt;strong&gt;Ollama&lt;/strong&gt;&lt;/a&gt;, quickly start using local AI models on Linux or macOS with a few lean commands in the terminal.&lt;/p&gt;
+&lt;h3&gt;Installing and First Use&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Install via shell:
+&lt;code&gt;curl https://ollama.ai/install.sh | sh&lt;/code&gt;
+This sets up Ollama on Linux/Mac.&lt;/li&gt;
+&lt;li&gt;Run your first model:
+&lt;code&gt;ollama run llama3.2:3b&lt;/code&gt;
+This downloads and runs the selected model, opening an interactive chat.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Quick Reference Table&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left;"&gt;Command&lt;/th&gt;
+&lt;th style="text-align: left;"&gt;Function&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left;"&gt;&lt;code&gt;ollama run model_name&lt;/code&gt;&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;Run model in chat&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left;"&gt;&lt;code&gt;ollama list&lt;/code&gt;&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;See downloaded models&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left;"&gt;&lt;code&gt;ollama pull model_name&lt;/code&gt;&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;Download a new model&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left;"&gt;&lt;code&gt;ollama rm model_name&lt;/code&gt;&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;Delete a model&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left;"&gt;&lt;code&gt;ollama show model_name&lt;/code&gt;&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;Model details&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left;"&gt;&lt;code&gt;ollama cp src dest&lt;/code&gt;&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;Copy model to new name&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left;"&gt;&lt;code&gt;/bye&lt;/code&gt; (during run)&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;Exit chat session&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left;"&gt;&lt;code&gt;/set system "prompt"&lt;/code&gt; (during run)&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;Set one-off system prompt&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;Customizing an Ollama Model&lt;/h3&gt;
+&lt;p&gt;To customize an Ollama model—editing it, setting a system prompt, and saving as a new model—use the following lean workflow and command examples.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Export the Current Modelfile&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Use the original model as a template:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;ollama show llama3 --modelfile &amp;gt; MyModelfile&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;This creates a file named &lt;code&gt;MyModelfile&lt;/code&gt; with the current model's configuration.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Edit the Modelfile and Set a System Prompt&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Open &lt;code&gt;MyModelfile&lt;/code&gt; in any text editor (e.g., nano, vim, code):&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;nano MyModelfile&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;In the file, adjust parameters and add/change a system prompt. For example:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="code"&gt;&lt;pre class="code literal-block"&gt;FROM llama3
+PARAMETER temperature 0.7
+SYSTEM """
+You are a Linux and Bash expert. Only provide concise, correct code with clear explanations.
+"""
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Build Your Custom Model&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Create a new model from the customized Modelfile:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;ollama create bash-expert -f MyModelfile&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;This saves the tailored model under the name &lt;code&gt;bash-expert&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Run the Customized Model&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;ollama run bash-expert&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;The model will now always respond using your provided system prompt.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;In-Session Quick System Prompt (One-off)&lt;/h3&gt;
+&lt;p&gt;During an interactive chat:&lt;/p&gt;
+&lt;div class="code"&gt;&lt;pre class="code literal-block"&gt;/set system "You are a SQL expert. Explain queries before showing code."
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Applies the system prompt for just that session.&lt;/p&gt;
+&lt;p&gt;This process lets you efficiently create, guide, and save your own specialized Ollama models for targeted tasks.&lt;/p&gt;</description><guid>https://my-portfolio-app-hxdx6.ondigitalocean.app/es/posts/ollama-day-1-guide/</guid><pubDate>Fri, 29 Aug 2025 11:59:36 GMT</pubDate></item></channel></rss>
